@@ -13,10 +13,11 @@ export const Options = ({divisas}) => {
     const onChange = (e) => {
         if (e.target.name === 'data1'){
             setData1(e.target.value)
+            
         }
-        else if(e.target.name === 'data2'){
-            setData2(e.target.value)
-        }
+        // else if(e.target.name === 'data2'){
+        //     setData2(e.target.value)
+        // }
     }
 
 
@@ -25,9 +26,9 @@ export const Options = ({divisas}) => {
             setSelection1(e.target.value)
         }
 
-        // if (e.target.name === '2'){
-        //     setSelection2(e.target.value)
-        // }
+        if (e.target.name === '2'){
+            setSelection2(e.target.value)
+        }
     }
 
 
