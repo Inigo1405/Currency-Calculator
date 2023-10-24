@@ -18,17 +18,50 @@ export const ResultValue = ({op1, op2, data1}) => {
         else if(op2 === 'EUR'){
             resultado = data1 * 0.052
         }
-        else if(op2 === 'EUR'){
-            resultado = data1 
-        }
         else if(op2 === 'BTC'){
-            resultado = data1
+            resultado = data1 * 0.0000016 
         }
         else if(op2 === 'ETH'){
-            resultado = data1
+            resultado = data1 * 0.031
         }
         else if(op2 === 'DODGE'){
-            resultado = data1
+            resultado = data1 * 7.5
+        }
+    }
+
+    if(op1 === 'USD'){
+        if(op2 === 'MXN'){
+            resultado = data1 * 0.055
+        }
+        else if(op2 === 'EUR'){
+            resultado = data1 * 0.052
+        }
+        else if(op2 === 'BTC'){
+            resultado = data1 * 0.0000016 
+        }
+        else if(op2 === 'ETH'){
+            resultado = data1 * 0.031
+        }
+        else if(op2 === 'DODGE'){
+            resultado = data1 * 7.5
+        }
+    }
+
+    if(op1 === 'EUR'){
+        if(op2 === 'MXN'){
+            resultado = data1 * 0.055
+        }
+        else if(op2 === 'USD'){
+            resultado = data1 * 0.052
+        }
+        else if(op2 === 'BTC'){
+            resultado = data1 * 0.0000016 
+        }
+        else if(op2 === 'ETH'){
+            resultado = data1 * 0.031
+        }
+        else if(op2 === 'DODGE'){
+            resultado = data1 * 7.5
         }
     }
 
